@@ -2,17 +2,20 @@ package homework.homework7.bracechecker;
 
 import classwork.classwork4.Stack;
 
+import java.util.Scanner;
+
 public class BraceChecker {
 
-    private String text;
 
+    private String text;
 
     public BraceChecker(String text) {
         this.text = text;
 
-
     }
 
+    public BraceChecker() {
+    }
 
     public void check() {
         Stack myStack = new Stack();
